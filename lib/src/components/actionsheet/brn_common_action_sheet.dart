@@ -285,7 +285,7 @@ class BrnCommonActionSheet extends StatelessWidget {
         padding: EdgeInsets.only(top: 12, bottom: 12),
         child: Center(
           child: Text(
-            cancelTitle ?? "取消",
+            cancelTitle ?? "Cancel",
             style: this.themeData!.cancelStyle.generateTextStyle(),
           ),
         ),
