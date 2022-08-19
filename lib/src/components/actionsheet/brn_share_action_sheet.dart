@@ -208,7 +208,7 @@ class BrnShareActionSheet extends StatelessWidget {
       alignment: Alignment.centerLeft,
       padding: EdgeInsets.only(top: 16, left: 20),
       child: Text(
-        mainTitle ?? "分享至",
+        mainTitle ?? "Share on",
         maxLines: 1,
         textAlign: TextAlign.left,
         style: TextStyle(
@@ -268,7 +268,7 @@ class BrnShareActionSheet extends StatelessWidget {
           padding: EdgeInsets.only(left: 61, right: 61, top: 12, bottom: 12),
           child: Center(
             child: Text(
-              cancelTitle ?? "取消",
+              cancelTitle ?? "Cancel",
               style: TextStyle(
                   fontSize: 16, fontWeight: FontWeight.w600, color: textColor),
             ),
