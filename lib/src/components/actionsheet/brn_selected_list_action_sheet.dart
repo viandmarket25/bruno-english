@@ -328,7 +328,7 @@ class _BrnActionSheetSelectedItemListState<T>
       // 如果没有实现 onClear，执行默认弹窗并删除的逻辑
       this.dismissContent(true);
       BrnDialogManager.showConfirmDialog(context,
-          title: "确定要清空已选列表吗?", cancel: '取消', confirm: '确定', onConfirm: () {
+          title: "Sure to empty  list?", cancel: 'cancel', confirm: 'confirm', onConfirm: () {
         if (widget.itemWidget.onClearConfirmed != null) {
           widget.itemWidget.onClearConfirmed!();
         }
@@ -367,7 +367,7 @@ class _BrnActionSheetSelectedItemListState<T>
     String title =
         (widget.itemWidget.title != null && widget.itemWidget.title!.isNotEmpty)
             ? widget.itemWidget.title!
-            : '已选列表';
+            : 'Selected list';
     TextStyle titleStyle = const TextStyle(
         fontSize: 18,
         color: Color(0xff222222),
@@ -391,7 +391,7 @@ class _BrnActionSheetSelectedItemListState<T>
         },
         child: Padding(
             padding: const EdgeInsets.fromLTRB(0, 20, 20, 15),
-            child: Text("清空",
+            child: Text("empty",
                 textAlign: TextAlign.right,
                 style: TextStyle(
                     fontSize: 16,
