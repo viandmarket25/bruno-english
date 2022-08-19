@@ -168,7 +168,7 @@ class _SearchInputWidget extends StatefulWidget {
       this.textEditingController,
       this.searchBarInputChangeCallback,
       this.searchBarInputSubmitCallback,
-      this.hint = '请输入搜索内容',
+      this.hint = 'Please enter your search',
       this.hintStyle,
       this.inputTextStyle,
       this.showDivider = true,
@@ -370,7 +370,7 @@ class __SearchInputWidgetState extends State<_SearchInputWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
-                          '取消',
+                          'Cancel',
                           style: widget.dismissStyle ??
                               TextStyle(
                                   color: _defaultCancelTextColor,
