@@ -1,16 +1,16 @@
 class BrnShareItemConstants {
   /// 分享渠道名称列表
   static const List<String> shareItemTitleList = [
-    "微信",
-    "朋友圈",
+    "Wechat",
+    "Circle of friends",
     "QQ",
     "QQ空间",
-    "微博",
-    "链接",
-    "短信",
-    "剪贴板",
-    "浏览器",
-    "相册"
+    "Weibo",
+    "link",
+    "Sms",
+    "clipboard",
+    "browser",
+    "photo album"
   ];
 
   /// 分享渠道图片地址列表
